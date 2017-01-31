@@ -5,10 +5,10 @@
 
 ; Le fichier de configuration custom.el
 ; Modifie l'emplacement du custom file pour ne pas écraser emacs.el lors de son édition dans Emacs
-(setq custom-file "~/.emacs.d/custom.el")
+(setq custom-file "~/.emacs.d/lisp/custom.el")
 
 ; Chargement du custom file en question, si besoin
-					;(load "custom.el")
+(load "custom.el")
 
 ; Chargement des fichiers de configuration par thème
 (load "encoding")
