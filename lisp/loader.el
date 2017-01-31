@@ -16,7 +16,7 @@
 (load "add-packages-archives")
 (load "function")
 (load "shortcut")
-(load "speech")
+(load "speechd-el-config")
 ; Configuration des modes additionels
 ;(load "markdown-config")
 ;(load "w3m-config")
