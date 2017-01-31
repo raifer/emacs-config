@@ -5,6 +5,12 @@
              (cons '("\\.md" . markdown-mode) auto-mode-alist)
 )
 
+; Ajout du mode pandoc
+(load "pandoc-mode")
+
+; Chargement de pandoc-mode avec markdown-mode
+(add-hook 'markdown-mode-hook 'pandoc-mode)
+
 (custom-set-variables
 ; Ajout de la ligne de meta dans le header pour le code HTML afin que le navigateur web travail en UTF8
 '(markdown-xhtml-header-content "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /> ")
